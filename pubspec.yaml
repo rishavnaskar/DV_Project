@@ -1,0 +1,42 @@
+name: dv_project
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  lottie: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Baloo
+      fonts:
+        - asset: fonts/BalooTammudu2-Regular.ttf
+
+  assets:
+    - assets/
+    - assets/app/
+    - assets/class/
+    - assets/genus/
+    - assets/piecharts/
+    - assets/importer/
+    - assets/origin/
+    - assets/purpose/
+    - assets/source/
+    - assets/term/
