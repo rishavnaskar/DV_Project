@@ -43,6 +43,7 @@ class _PropertyScreenState extends State<PropertyScreen> {
         physics: BouncingScrollPhysics(),
         child: Container(
           width: double.infinity,
+          height: MediaQuery.of(context).size.height,
           decoration: BoxDecoration(
               gradient: LinearGradient(
                   colors: [Utils.backgroundColor, Utils.cardBackgroundColor])),
